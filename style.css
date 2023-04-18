@@ -130,3 +130,15 @@ body {
   font-weight: bold;
   cursor: pointer;
 }
+.survey-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.survey-form label,
+.survey-form select,
+.survey-form input[type="text"],
+.survey-form input[type="radio"] {
+  margin: 10px 0;
+}
+
